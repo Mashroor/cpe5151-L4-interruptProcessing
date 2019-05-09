@@ -1,0 +1,12 @@
+--cpu ARM7TDMI
+".\assembly_exp1_solution.o"
+".\sam7.o"
+".\usart0_solution.o"
+".\retarget_solution.o"
+".\integer_convert.o"
+".\pit_example.o"
+".\tc_assembly.o"
+--strict --scatter ".\Interrupt_Example_Proj.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Interrupt_Example_Proj.map" -o .\Interrupt_Example_Proj.axf

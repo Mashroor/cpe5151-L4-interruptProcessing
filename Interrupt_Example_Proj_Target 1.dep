@@ -1,0 +1,22 @@
+Dependencies for Project 'Interrupt_Example_Proj', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Assembly_Exp1_solution.s)(0x5CC884A6)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\KeilARM\ARM\RV31\INC-I C:\KeilARM\ARM\CMSIS\Include-I C:\KeilARM\ARM\Inc\Atmel\SAM7SE--list .\assembly_exp1_solution.lst --xref -o .\assembly_exp1_solution.o --depend .\assembly_exp1_solution.d)
+F (.\SAM7.s)(0x5CC884A5)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\KeilARM\ARM\RV31\INC-I C:\KeilARM\ARM\CMSIS\Include-I C:\KeilARM\ARM\Inc\Atmel\SAM7SE--list .\sam7.lst --xref -o .\sam7.o --depend .\sam7.d)
+F (.\USART0_solution.s)(0x5CC884A6)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\KeilARM\ARM\RV31\INC-I C:\KeilARM\ARM\CMSIS\Include-I C:\KeilARM\ARM\Inc\Atmel\SAM7SE--list .\usart0_solution.lst --xref -o .\usart0_solution.o --depend .\usart0_solution.d)
+F (.\retarget_solution.c)(0x5CC884A5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\KeilARM\ARM\RV31\INC-I C:\KeilARM\ARM\CMSIS\Include-I C:\KeilARM\ARM\Inc\Atmel\SAM7SE-o .\retarget_solution.o --omf_browse .\retarget_solution.crf --depend .\retarget_solution.d)
+I (C:\KeilARM\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\KeilARM\ARM\ARMCC\include\rt_misc.h)(0x51C86E14)
+I (USART0_solution.h)(0x5CC884A6)
+F (.\Integer_Convert.c)(0x5CC884A3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\KeilARM\ARM\RV31\INC-I C:\KeilARM\ARM\CMSIS\Include-I C:\KeilARM\ARM\Inc\Atmel\SAM7SE-o .\integer_convert.o --omf_browse .\integer_convert.crf --depend .\integer_convert.d)
+I (Integer_Convert.h)(0x5CC884A3)
+I (C:\KeilARM\ARM\Inc\Atmel\SAM7SE\AT91SAM7SE512.h)(0x520A6108)
+I (AT91SAM7SE-EK.h)(0x5CC884A3)
+I (C:\KeilARM\ARM\ARMCC\include\math.h)(0x51C86E14)
+F (.\PIT_example.c)(0x5CC89B79)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\KeilARM\ARM\RV31\INC-I C:\KeilARM\ARM\CMSIS\Include-I C:\KeilARM\ARM\Inc\Atmel\SAM7SE-o .\pit_example.o --omf_browse .\pit_example.crf --depend .\pit_example.d)
+I (C:\KeilARM\ARM\Inc\Atmel\SAM7SE\AT91SAM7SE512.H)(0x520A6108)
+I (AT91SAM7SE-EK.h)(0x5CC884A3)
+I (Exp1_solution.h)(0x5CC884A3)
+I (USART0_solution.h)(0x5CC884A6)
+I (TC_Assembly.h)(0x5CC884A6)
+I (Integer_Convert.h)(0x5CC884A3)
+I (C:\KeilARM\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+F (.\TC_Assembly.s)(0x5CC884A6)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\KeilARM\ARM\RV31\INC-I C:\KeilARM\ARM\CMSIS\Include-I C:\KeilARM\ARM\Inc\Atmel\SAM7SE--list .\tc_assembly.lst --xref -o .\tc_assembly.o --depend .\tc_assembly.d)
